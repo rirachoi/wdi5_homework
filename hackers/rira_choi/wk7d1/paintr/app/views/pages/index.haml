@@ -1,0 +1,17 @@
+%hi Paintr
+
+%div
+  %div.box#selected
+  = text_field_tag 'color',nil, :autofocus => true
+  = button_tag 'add color', :id => 'add_color'
+  = button_tag 'clear', :id => 'clear'
+
+  = text_field_tag 'background-image', nil
+  = button_tag 'add background', :id => 'add_bg'
+  %div#colors
+
+/ %div>
+/   =label_tag "color1", 'Color 1'
+/   =text_field_tag "#333399", "color1"
+
+%div#canvas

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>MTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body style=text-align:center;>
+    <h1> Train Tracker</h1>
+    <div id='container'>
+      <div id='userOptions'>
+        <label for= 'Line' id='line'>Select Line & Stop you will get <span>on </span>:</label>
+        <select name='startLine' id='startLine'></select>
+        <select name='startStop' id='startStop'></select>
+
+        <label for= 'Line' id='line'>Select Line & Stop you will get <span>off </span>:</label>
+        <select name='endLine' id='endLine'></select>
+        <select name='endStop' id='endStop'></select>
+      </div>
+
+      <div id='button'>
+        <button>Click!</button>
+      </div>
+
+      <div class='location'>
+        <div id='Times Square'></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </div>
+    <img src='js/MTA.gif'/>
+    <script src="js/jquery.js"></script>
+    <script src="js/mta.js"></script>
+  </body>
+</html>

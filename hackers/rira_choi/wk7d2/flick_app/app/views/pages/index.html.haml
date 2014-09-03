@@ -1,0 +1,11 @@
+%h1 Flickr
+%div#form
+  = text_field_tag 'search', nil, :placeholder => 'Type to search! ', :autofocus => true
+  %div#buttons
+  = button_tag 'Search It Flickr!', :id => 'search_flickr'
+  = button_tag 'Clear Images', :id => 'clear_images'
+
+%div#images
+
+  %h2#iwanttosee Would You Like To See MORE Pictures?
+  %div#more_pics Load More Images..!

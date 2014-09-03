@@ -1,5 +1,5 @@
 require 'pry'
-require 'pry-debugger'
+# require 'pry-debugger'
 
 require_relative 'animal.rb'
 require_relative 'client.rb'
@@ -84,7 +84,7 @@ def client_add
   p "Add New Client ----- The Number of Childern : "
   num_children = gets.chomp.to_i
   p "Add New Client ----- Dose the Cilent have any Pets?(optional): "
-  pets = gets.chomp.to_s.capitalize
+  pets = gets.chomp.to_s
   new_client = Client.new(name, num_children, age, pets)
   new_client.pets << pets
   p " A new client has been added: "
@@ -108,7 +108,7 @@ def delete_animal
   # getting the client index
   unadopting_client_index = 0
   $happitails.list_clients.each_with_index { |name, clie_index|
-    if name.name == unadopting_client
+    if name == unadopting_client
       undopting_client_index = clie_index end }
   p $happitails.list_clients[unadopting_client_index].info
   p $happitails.list_clients[unadopting_client_index].pets_names
@@ -167,6 +167,6 @@ until response == "q"
 end
 
 
-binding.pry
+# binding.pry
 
 

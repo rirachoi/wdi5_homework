@@ -1,0 +1,65 @@
+D, [2014-07-29T21:22:06.873048 #59027] DEBUG -- :   [1m[36mVideo Load (2.6ms)[0m  [1mSELECT "videos".* FROM "videos"[0m
+D, [2014-07-29T21:22:06.897175 #59027] DEBUG -- :   [1m[35mCategory Load (0.4ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:22:06.907175 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:22:06.907784 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:22:06.908253 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:22:06.908711 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+D, [2014-07-29T21:22:06.909166 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2014-07-29T21:22:06.909601 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 4]]
+D, [2014-07-29T21:22:06.910097 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:22:06.910591 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:22:06.911074 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 4]]
+D, [2014-07-29T21:22:06.911537 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 4]]
+D, [2014-07-29T21:22:06.911959 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 4]]
+D, [2014-07-29T21:22:06.912372 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 4]]
+D, [2014-07-29T21:22:06.912780 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 5]]
+D, [2014-07-29T21:22:06.913186 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 5]]
+D, [2014-07-29T21:22:06.913586 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 5]]
+D, [2014-07-29T21:22:06.913985 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 5]]
+D, [2014-07-29T21:22:06.914380 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 4]]
+D, [2014-07-29T21:22:06.914803 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+D, [2014-07-29T21:22:06.915236 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:22:06.915634 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:22:06.916029 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:22:06.916427 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:22:26.463770 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+D, [2014-07-29T21:22:29.219322 #59027] DEBUG -- :   [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+D, [2014-07-29T21:22:29.224329 #59027] DEBUG -- :   [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 1 LIMIT 3[0m
+D, [2014-07-29T21:22:29.225335 #59027] DEBUG -- :   [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 2 LIMIT 3
+D, [2014-07-29T21:22:29.226137 #59027] DEBUG -- :   [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 3 LIMIT 3[0m
+D, [2014-07-29T21:22:29.226856 #59027] DEBUG -- :   [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 4 LIMIT 3
+D, [2014-07-29T21:22:29.227453 #59027] DEBUG -- :   [1m[36mVideo Load (0.1ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 5 LIMIT 3[0m
+D, [2014-07-29T21:23:15.333796 #59027] DEBUG -- :   [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  WHERE "videos"."category_id" = 1
+D, [2014-07-29T21:23:15.335485 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2014-07-29T21:23:15.336374 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+D, [2014-07-29T21:23:15.336948 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2014-07-29T21:23:25.106181 #59027] DEBUG -- :   [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+D, [2014-07-29T21:23:25.107314 #59027] DEBUG -- :   [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 1 LIMIT 3[0m
+D, [2014-07-29T21:23:25.107992 #59027] DEBUG -- :   [1m[35mVideo Load (0.1ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 2 LIMIT 3
+D, [2014-07-29T21:23:25.108551 #59027] DEBUG -- :   [1m[36mVideo Load (0.1ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 3 LIMIT 3[0m
+D, [2014-07-29T21:23:25.109092 #59027] DEBUG -- :   [1m[35mVideo Load (0.1ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 4 LIMIT 3
+D, [2014-07-29T21:23:25.109616 #59027] DEBUG -- :   [1m[36mVideo Load (0.1ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 5 LIMIT 3[0m
+D, [2014-07-29T21:23:27.010870 #59027] DEBUG -- :   [1m[35mVideo Load (0.7ms)[0m  SELECT "videos".* FROM "videos"  WHERE "videos"."category_id" = 2
+D, [2014-07-29T21:23:27.012434 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:23:27.013473 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:23:27.014329 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:23:27.015112 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:23:36.852238 #59027] DEBUG -- :   [1m[36mVideo Load (0.8ms)[0m  [1mSELECT "videos".* FROM "videos"  WHERE "videos"."category_id" = 2[0m
+D, [2014-07-29T21:23:36.854025 #59027] DEBUG -- :   [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:23:36.855209 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:23:36.855993 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 2]]
+D, [2014-07-29T21:23:36.856731 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2014-07-29T21:23:45.781411 #59027] DEBUG -- :   [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos"  WHERE "videos"."category_id" = 3
+D, [2014-07-29T21:23:45.783066 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:23:45.784156 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:23:45.785173 #59027] DEBUG -- :   [1m[36mCategory Load (0.2ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:23:45.786124 #59027] DEBUG -- :   [1m[35mCategory Load (0.2ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:23:45.787021 #59027] DEBUG -- :   [1m[36mCategory Load (0.1ms)[0m  [1mSELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1[0m  [["id", 3]]
+D, [2014-07-29T21:23:45.787885 #59027] DEBUG -- :   [1m[35mCategory Load (0.1ms)[0m  SELECT  "categories".* FROM "categories"  WHERE "categories"."id" = ? LIMIT 1  [["id", 3]]
+D, [2014-07-29T21:23:59.012377 #59027] DEBUG -- :   [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+D, [2014-07-29T21:23:59.013353 #59027] DEBUG -- :   [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 1 LIMIT 3
+D, [2014-07-29T21:23:59.014020 #59027] DEBUG -- :   [1m[36mVideo Load (0.1ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 2 LIMIT 3[0m
+D, [2014-07-29T21:23:59.014565 #59027] DEBUG -- :   [1m[35mVideo Load (0.1ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 3 LIMIT 3
+D, [2014-07-29T21:23:59.015085 #59027] DEBUG -- :   [1m[36mVideo Load (0.1ms)[0m  [1mSELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 4 LIMIT 3[0m
+D, [2014-07-29T21:23:59.015598 #59027] DEBUG -- :   [1m[35mVideo Load (0.1ms)[0m  SELECT  "videos".* FROM "videos"  WHERE "videos"."category_id" = 5 LIMIT 3
+D, [2014-07-29T21:24:00.693523 #59027] DEBUG -- :   [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m

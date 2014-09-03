@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+body {
+  /*background-image: url('http://i.imgur.com/kqi2Zjx.gif');*/
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Muli';
+  margin-top: 3px;
+  text-align: center;
+  font-size: 75px;
+  color: black; text-shadow:1px 1px 8px #746D62;"
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Muli';
+  margin: 10px;
+}
+
+h2 span{
+  font-size: 25px;
+  color: red;
+}
+
+button{
+  background: red;
+  color: white;
+  margin-top: 10px;
+  width: 70px;
+}
+
+label{
+  padding: 5px;
+  margin: 30px;
+  font-size: 13px;
+  background-color: rgba(127, 117, 94, 0.1);
+  margin:1em;
+
+}
+
+label:hover {
+  background-color: white;
+}
+
+label span{
+  font-size: 15px;
+  color: red;
+}
+
+#container{
+  margin-top: 10px;
+}
